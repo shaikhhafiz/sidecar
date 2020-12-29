@@ -1,4 +1,4 @@
-package com.hafiz.erp.sidecar;
+package com.hafiz.erp.sidecar.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

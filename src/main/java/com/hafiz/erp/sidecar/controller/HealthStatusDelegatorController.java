@@ -1,5 +1,6 @@
-package com.hafiz.erp.sidecar;
+package com.hafiz.erp.sidecar.controller;
 
+import com.hafiz.erp.sidecar.config.SidecarHealthIndicator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.web.bind.annotation.RequestMapping;
