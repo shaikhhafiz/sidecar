@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: sidecar
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    appname: sidecar
+server:
+  port: 6002
+sidecar:
+  hostname: localhost
+  port: 8082
+  health-uri: http://localhost:${server.port}/health-status
