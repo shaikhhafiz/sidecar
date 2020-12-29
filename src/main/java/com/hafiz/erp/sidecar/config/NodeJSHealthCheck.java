@@ -1,4 +1,4 @@
-package com.hafiz.erp.sidecar;
+package com.hafiz.erp.sidecar.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.actuate.health.Health;
